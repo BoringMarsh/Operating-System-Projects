@@ -1,0 +1,14 @@
+C:\Users\CHEMISTRYMASTER\Desktop\操作系统\小项目\文件项目\OS_FileManagement\OS_FileManagement\bin\Release\OS_FileManagement.exe.config
+C:\Users\CHEMISTRYMASTER\Desktop\操作系统\小项目\文件项目\OS_FileManagement\OS_FileManagement\bin\Release\OS_FileManagement.exe
+C:\Users\CHEMISTRYMASTER\Desktop\操作系统\小项目\文件项目\OS_FileManagement\OS_FileManagement\bin\Release\OS_FileManagement.pdb
+C:\Users\CHEMISTRYMASTER\Desktop\操作系统\小项目\文件项目\OS_FileManagement\OS_FileManagement\obj\Release\OS_FileManagement.AboutWindow.resources
+C:\Users\CHEMISTRYMASTER\Desktop\操作系统\小项目\文件项目\OS_FileManagement\OS_FileManagement\obj\Release\OS_FileManagement.InfoWindow.resources
+C:\Users\CHEMISTRYMASTER\Desktop\操作系统\小项目\文件项目\OS_FileManagement\OS_FileManagement\obj\Release\OS_FileManagement.NameInputWindow.resources
+C:\Users\CHEMISTRYMASTER\Desktop\操作系统\小项目\文件项目\OS_FileManagement\OS_FileManagement\obj\Release\OS_FileManagement.MainWindow.resources
+C:\Users\CHEMISTRYMASTER\Desktop\操作系统\小项目\文件项目\OS_FileManagement\OS_FileManagement\obj\Release\OS_FileManagement.Properties.Resources.resources
+C:\Users\CHEMISTRYMASTER\Desktop\操作系统\小项目\文件项目\OS_FileManagement\OS_FileManagement\obj\Release\OS_FileManagement.TextEditor.resources
+C:\Users\CHEMISTRYMASTER\Desktop\操作系统\小项目\文件项目\OS_FileManagement\OS_FileManagement\obj\Release\OS_FileManagement.WelcomeWindow.resources
+C:\Users\CHEMISTRYMASTER\Desktop\操作系统\小项目\文件项目\OS_FileManagement\OS_FileManagement\obj\Release\OS_FileManagement.csproj.GenerateResource.cache
+C:\Users\CHEMISTRYMASTER\Desktop\操作系统\小项目\文件项目\OS_FileManagement\OS_FileManagement\obj\Release\OS_FileManagement.csproj.CoreCompileInputs.cache
+C:\Users\CHEMISTRYMASTER\Desktop\操作系统\小项目\文件项目\OS_FileManagement\OS_FileManagement\obj\Release\OS_FileManagement.exe
+C:\Users\CHEMISTRYMASTER\Desktop\操作系统\小项目\文件项目\OS_FileManagement\OS_FileManagement\obj\Release\OS_FileManagement.pdb

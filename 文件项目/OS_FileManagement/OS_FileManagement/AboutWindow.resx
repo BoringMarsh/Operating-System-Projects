@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label.Text" xml:space="preserve">
+    <value>File Management Simulator v1.0说明：
+本项目来自于同济大学2021级操作系统课程项目3的文件管理
+通过模拟文件索引、位图等策略完成了一个基本的文件管理系统
+其功能如下：
+*****************************************************************
+ · 树形视图：可以以树形结构从全局查看多级目录结构
+ · 列表视图：可以以包括大图标、小图标、详细信息在内的4种视图显示当前文件夹中的项
+ · 导航栏：可以查看当前文件夹的路径
+ · 底部信息栏：若未选中项则显示当前文件夹的子项及大小总和；若选中项则实时显示选中项的数目及大小总和
+ · 回退、前进键：实现了返回上一级目录或去往下一级目录
+ · 格式化磁盘：清空磁盘空间的所有内容
+ · 打开：右键选中在菜单栏中打开，双击列表视图或树形视图中的项也可以打开
+ · 重命名：右键选中在菜单栏中重命名
+ · 新建：右键在菜单栏中新建文件夹或文件
+ · 删除：右键选中在菜单栏中删除
+ · 显示属性：右击在菜单栏中查看属性，若选中了项则显示对应的属性，未选中项则显示当前文件夹属性
+*****************************************************************
+开发者信息：2151294 马威</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AAAASUVORK5CYII=
+</value>
+  </data>
+</root>

@@ -1,0 +1,6238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1504</width>
+    <height>895</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Elevator-Dispatching Simulator v1.0</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>140</y>
+      <width>201</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+    </property>
+    <layout class="QGridLayout" name="Elevator1">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetNoConstraint</enum>
+     </property>
+     <property name="spacing">
+      <number>2</number>
+     </property>
+     <item row="4" column="2">
+      <widget class="QPushButton" name="E1F16">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>16</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QPushButton" name="E1F11">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>11</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QPushButton" name="E1F7">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="E1F18">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>18</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QPushButton" name="E1F3">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="E1F17">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>17</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="E1F19">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>19</string>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QPushButton" name="E1F14">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>14</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QPushButton" name="E1F12">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>12</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="2">
+      <widget class="QPushButton" name="E1F4">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QPushButton" name="E1F10">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>10</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="default">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QPushButton" name="E1F5">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="2">
+      <widget class="QPushButton" name="E1F2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="2">
+      <widget class="QPushButton" name="E1F6">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QPushButton" name="E1F9">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>9</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="E1F20">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>20</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2">
+      <widget class="QPushButton" name="E1F8">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="E1F15">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>15</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="1">
+      <widget class="QPushButton" name="E1F1">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QPushButton" name="E1F13">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>13</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1" colspan="2">
+      <widget class="QPushButton" name="E1Alert">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: red;
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: orange;
+}
+QPushButton:pressed{
+background-color: red;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>Alert</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>140</y>
+      <width>201</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+    </property>
+    <layout class="QGridLayout" name="Elevator2">
+     <property name="spacing">
+      <number>2</number>
+     </property>
+     <item row="5" column="1">
+      <widget class="QPushButton" name="E2F13">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>13</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QPushButton" name="E2F10">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>10</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QPushButton" name="E2F3">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2">
+      <widget class="QPushButton" name="E2F8">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QPushButton" name="E2F5">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QPushButton" name="E2F11">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>11</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QPushButton" name="E2F16">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>16</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="E2F18">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>18</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QPushButton" name="E2F9">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>9</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1" colspan="2">
+      <widget class="QPushButton" name="E2Alert">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: red;
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: orange;
+}
+QPushButton:pressed{
+background-color: red;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>Alert</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="2">
+      <widget class="QPushButton" name="E2F6">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="E2F19">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>19</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="E2F20">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>20</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QPushButton" name="E2F7">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="2">
+      <widget class="QPushButton" name="E2F4">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QPushButton" name="E2F14">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>14</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="E2F17">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>17</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QPushButton" name="E2F12">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>12</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="E2F15">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>15</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="1">
+      <widget class="QPushButton" name="E2F1">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="2">
+      <widget class="QPushButton" name="E2F2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>140</y>
+      <width>201</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+    </property>
+    <layout class="QGridLayout" name="Elevator3">
+     <property name="spacing">
+      <number>2</number>
+     </property>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="E3F15">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>15</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="E3F18">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>18</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QPushButton" name="E3F5">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QPushButton" name="E3F9">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>9</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="2">
+      <widget class="QPushButton" name="E3F2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QPushButton" name="E3F11">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>11</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QPushButton" name="E3F10">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>10</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="2">
+      <widget class="QPushButton" name="E3F6">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QPushButton" name="E3F3">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="E3F20">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>20</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QPushButton" name="E3F7">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QPushButton" name="E3F16">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>16</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="E3F17">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>17</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="1">
+      <widget class="QPushButton" name="E3F1">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QPushButton" name="E3F14">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>14</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2">
+      <widget class="QPushButton" name="E3F8">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="2">
+      <widget class="QPushButton" name="E3F4">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="E3F19">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>19</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QPushButton" name="E3F13">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>13</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QPushButton" name="E3F12">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>12</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1" colspan="2">
+      <widget class="QPushButton" name="E3Alert">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: red;
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: orange;
+}
+QPushButton:pressed{
+background-color: red;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>Alert</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_4">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>140</y>
+      <width>201</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+    </property>
+    <layout class="QGridLayout" name="Elevator4">
+     <property name="spacing">
+      <number>2</number>
+     </property>
+     <item row="5" column="2">
+      <widget class="QPushButton" name="E4F14">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>14</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QPushButton" name="E4F9">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>9</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="2">
+      <widget class="QPushButton" name="E4F2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="E4F19">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>19</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QPushButton" name="E4F3">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="2">
+      <widget class="QPushButton" name="E4F4">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="2">
+      <widget class="QPushButton" name="E4F6">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QPushButton" name="E4F10">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>10</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QPushButton" name="E4F12">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>12</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QPushButton" name="E4F16">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>16</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="1">
+      <widget class="QPushButton" name="E4F1">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="E4F17">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>17</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="E4F15">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>15</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QPushButton" name="E4F7">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QPushButton" name="E4F5">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2">
+      <widget class="QPushButton" name="E4F8">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="E4F20">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>20</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QPushButton" name="E4F13">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>13</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="E4F18">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>18</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QPushButton" name="E4F11">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>11</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1" colspan="2">
+      <widget class="QPushButton" name="E4Alert">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: red;
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: orange;
+}
+QPushButton:pressed{
+background-color: red;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>Alert</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_5">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>140</y>
+      <width>201</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+    </property>
+    <layout class="QGridLayout" name="Elevator5">
+     <property name="spacing">
+      <number>2</number>
+     </property>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="E5F19">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>19</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QPushButton" name="E5F14">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>14</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="E5F15">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>15</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2">
+      <widget class="QPushButton" name="E5F8">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QPushButton" name="E5F16">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>16</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="2">
+      <widget class="QPushButton" name="E5F2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="E5F17">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>17</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="2">
+      <widget class="QPushButton" name="E5F6">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QPushButton" name="E5F5">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QPushButton" name="E5F9">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>9</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QPushButton" name="E5F10">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>10</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="2">
+      <widget class="QPushButton" name="E5F4">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="E5F18">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>18</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QPushButton" name="E5F7">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QPushButton" name="E5F13">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>13</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="1">
+      <widget class="QPushButton" name="E5F1">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QPushButton" name="E5F11">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>11</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="E5F20">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>20</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QPushButton" name="E5F3">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QPushButton" name="E5F12">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>12</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1" colspan="2">
+      <widget class="QPushButton" name="E5Alert">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: red;
+color: white;
+border-radius: 10px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: orange;
+}
+QPushButton:pressed{
+background-color: red;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>Alert</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_6">
+    <property name="geometry">
+     <rect>
+      <x>1230</x>
+      <y>30</y>
+      <width>221</width>
+      <height>741</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+    </property>
+    <layout class="QGridLayout" name="Floor">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item row="17" column="1">
+      <widget class="QPushButton" name="Down3">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>3▼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="19" column="2">
+      <widget class="QPushButton" name="Up1">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>1▲</string>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="1">
+      <widget class="QPushButton" name="Down4">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>4▼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="Down16">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>16▼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="17" column="2">
+      <widget class="QPushButton" name="Up3">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>3▲</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QPushButton" name="Down13">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>13▼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="2">
+      <widget class="QPushButton" name="Up5">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>5▲</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="1">
+      <widget class="QPushButton" name="Down7">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>7▼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2">
+      <widget class="QPushButton" name="Up12">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>12▲</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QPushButton" name="Up14">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>14▲</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="2">
+      <widget class="QPushButton" name="Up9">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>9▲</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="Down19">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>19▼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QPushButton" name="Down10">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>10▼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QPushButton" name="Up13">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>13▲</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="2">
+      <widget class="QPushButton" name="Up6">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>6▲</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="Down18">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>18▼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="1">
+      <widget class="QPushButton" name="Down6">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>6▼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="2">
+      <widget class="QPushButton" name="Up10">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>10▲</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="2">
+      <widget class="QPushButton" name="Up7">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>7▲</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QPushButton" name="Up16">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>16▲</string>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="1">
+      <widget class="QPushButton" name="Down2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>2▼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="2">
+      <widget class="QPushButton" name="Up2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>2▲</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QPushButton" name="Down14">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>14▼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="Up17">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>17▲</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="Down17">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>17▼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="2">
+      <widget class="QPushButton" name="Up11">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>11▲</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QPushButton" name="Down11">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>11▼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="19" column="1">
+      <widget class="QPushButton" name="Down1">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>1▼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QPushButton" name="Up15">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>15▲</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="Up18">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>18▲</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="1">
+      <widget class="QPushButton" name="Down9">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>9▼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QPushButton" name="Down12">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>12▼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QPushButton" name="Down15">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>15▼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1">
+      <widget class="QPushButton" name="Down8">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>8▼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="2">
+      <widget class="QPushButton" name="Up4">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>4▲</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="1">
+      <widget class="QPushButton" name="Down5">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>5▼</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="Up19">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>19▲</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="2">
+      <widget class="QPushButton" name="Up8">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>8▲</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="Up20">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>20▲</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="Down20">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <family>等线</family>
+         <pointsize>11</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+background-color: rgb(181, 181, 181);
+color: white;
+border-radius: 5px;
+border: 1px white;
+border-style: outset;
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: green;
+color: white;
+}</string>
+       </property>
+       <property name="text">
+        <string>20▼</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLCDNumber" name="ElevLCD1">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>30</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLCDNumber{
+background: black;
+color: rgb(77, 199, 176);
+border-radius: 15px;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="midLineWidth">
+     <number>0</number>
+    </property>
+    <property name="digitCount">
+     <number>2</number>
+    </property>
+    <property name="mode">
+     <enum>QLCDNumber::Dec</enum>
+    </property>
+    <property name="segmentStyle">
+     <enum>QLCDNumber::Flat</enum>
+    </property>
+    <property name="intValue" stdset="0">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ElevState1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: black;
+color: rgb(77, 199, 176);
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Stay</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ElevMark1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>780</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: black;
+color: rgb(85, 155, 213);
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Elevator1</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ElevState2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>30</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: black;
+color: rgb(77, 199, 176);
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Stay</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="ElevLCD2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>30</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLCDNumber{
+background: black;
+color: rgb(77, 199, 176);
+border-radius: 15px;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="midLineWidth">
+     <number>0</number>
+    </property>
+    <property name="digitCount">
+     <number>2</number>
+    </property>
+    <property name="mode">
+     <enum>QLCDNumber::Dec</enum>
+    </property>
+    <property name="segmentStyle">
+     <enum>QLCDNumber::Flat</enum>
+    </property>
+    <property name="intValue" stdset="0">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ElevMark2">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>780</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: black;
+color: rgb(85, 155, 213);
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Elevator2</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ElevState3">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>30</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: black;
+color: rgb(77, 199, 176);
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Stay</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="ElevLCD3">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>30</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLCDNumber{
+background: black;
+color: rgb(77, 199, 176);
+border-radius: 15px;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="midLineWidth">
+     <number>0</number>
+    </property>
+    <property name="digitCount">
+     <number>2</number>
+    </property>
+    <property name="mode">
+     <enum>QLCDNumber::Dec</enum>
+    </property>
+    <property name="segmentStyle">
+     <enum>QLCDNumber::Flat</enum>
+    </property>
+    <property name="intValue" stdset="0">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ElevMark3">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>780</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: black;
+color: rgb(85, 155, 213);
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Elevator3</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ElevMark4">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>780</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: black;
+color: rgb(85, 155, 213);
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Elevator4</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ElevState4">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>30</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: black;
+color: rgb(77, 199, 176);
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Stay</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="ElevLCD4">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>30</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLCDNumber{
+background: black;
+color: rgb(77, 199, 176);
+border-radius: 15px;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="midLineWidth">
+     <number>0</number>
+    </property>
+    <property name="digitCount">
+     <number>2</number>
+    </property>
+    <property name="mode">
+     <enum>QLCDNumber::Dec</enum>
+    </property>
+    <property name="segmentStyle">
+     <enum>QLCDNumber::Flat</enum>
+    </property>
+    <property name="intValue" stdset="0">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ElevState5">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>30</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: black;
+color: rgb(77, 199, 176);
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Stay</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="ElevLCD5">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>30</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLCDNumber{
+background: black;
+color: rgb(77, 199, 176);
+border-radius: 15px;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>1</number>
+    </property>
+    <property name="midLineWidth">
+     <number>0</number>
+    </property>
+    <property name="digitCount">
+     <number>2</number>
+    </property>
+    <property name="mode">
+     <enum>QLCDNumber::Dec</enum>
+    </property>
+    <property name="segmentStyle">
+     <enum>QLCDNumber::Flat</enum>
+    </property>
+    <property name="intValue" stdset="0">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ElevMark5">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>780</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: black;
+color: rgb(85, 155, 213);
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Elevator5</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="CorridorMark">
+    <property name="geometry">
+     <rect>
+      <x>1230</x>
+      <y>780</y>
+      <width>221</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>等线</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: black;
+color: yellow;
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Corridor</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

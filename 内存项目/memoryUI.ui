@@ -1,0 +1,1593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1348</width>
+    <height>884</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>13</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Memory-Management Simulator v1.0</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+background-color:rgb(49, 54, 59);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="RecordTable">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>330</y>
+      <width>501</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTableWidget{
+background-color: rgb(35, 38, 41);
+color:rgb(29, 233, 182);
+gridline-color:rgb(35, 38, 41);
+border-radius:10;
+border: 5px solid rgb(35, 38, 41);
+}
+QHeaderView{
+background-color:rgb(35, 38, 41);
+}
+QHeaderView::section{
+background-color:rgb(35, 38, 41);
+color:rgb(29, 233, 182);
+}
+QScrollBar:vertical{
+border-radius:5px;
+background:rgb(29, 233, 182);
+}
+QScrollBar::handle:vertical
+{
+    background:darkgray;
+    border-radius:4px;
+}
+QScrollBar::handle:vertical:hover
+{
+    background:gray;
+    border-radius:4px;
+}
+QScrollBar::add-page:vertical
+{
+    background:rgb(79, 91, 98);
+}
+QScrollBar::sub-page:vertical
+{
+    background:rgb(29, 233, 182); 
+}</string>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QAbstractScrollArea::AdjustIgnored</enum>
+    </property>
+    <property name="showGrid">
+     <bool>true</bool>
+    </property>
+    <property name="gridStyle">
+     <enum>Qt::SolidLine</enum>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+    <property name="cornerButtonEnabled">
+     <bool>true</bool>
+    </property>
+    <property name="rowCount">
+     <number>320</number>
+    </property>
+    <property name="columnCount">
+     <number>3</number>
+    </property>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>序号</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>35</red>
+       <green>38</green>
+       <blue>41</blue>
+      </color>
+     </property>
+     <property name="foreground">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>29</red>
+        <green>233</green>
+        <blue>182</blue>
+       </color>
+      </brush>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>指令地址</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>35</red>
+       <green>38</green>
+       <blue>41</blue>
+      </color>
+     </property>
+     <property name="foreground">
+      <brush brushstyle="NoBrush">
+       <color alpha="255">
+        <red>29</red>
+        <green>233</green>
+        <blue>182</blue>
+       </color>
+      </brush>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>是否在内存中</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>35</red>
+       <green>38</green>
+       <blue>41</blue>
+      </color>
+     </property>
+     <property name="foreground">
+      <brush brushstyle="NoBrush">
+       <color alpha="255">
+        <red>29</red>
+        <green>233</green>
+        <blue>182</blue>
+       </color>
+      </brush>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>NULL</string>
+     </property>
+     <property name="background">
+      <brush brushstyle="NoBrush">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foreground">
+      <brush brushstyle="NoBrush">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>NULL</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>NULL</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTableWidget" name="MemoryTable">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>50</y>
+      <width>461</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTableWidget{
+background-color: rgb(35, 38, 41);
+color:rgb(225, 172, 14);
+gridline-color:rgb(35, 38, 41);
+border-radius:10;
+border: 5px solid rgb(35, 38, 41);
+}
+QHeaderView{
+background-color:rgb(35, 38, 41);
+}
+QHeaderView::section{
+background-color:rgb(35, 38, 41);
+color:rgb(225, 172, 14);
+}
+QScrollBar:vertical{
+border-radius:5px;
+background:rgb(29, 233, 182);
+}
+QScrollBar::handle:vertical
+{
+    background:darkgray;
+    border-radius:4px;
+}
+QScrollBar::handle:vertical:hover
+{
+    background:gray;
+    border-radius:4px;
+}
+QScrollBar::add-page:vertical
+{
+    background:rgb(79, 91, 98);
+}
+QScrollBar::sub-page:vertical
+{
+    background:rgb(29, 233, 182); 
+}</string>
+    </property>
+    <property name="rowCount">
+     <number>4</number>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="horizontalHeaderCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>块编号</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>页编号</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>地址范围</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>0</string>
+     </property>
+     <property name="flags">
+      <set>ItemIsDragEnabled|ItemIsDropEnabled|ItemIsEnabled</set>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>NULL</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>NULL</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>NULL</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>NULL</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>NULL</string>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>NULL</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>NULL</string>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string>NULL</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="AlgorithmLabel">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>60</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: rgb(35, 38, 41);
+color: rgb(26, 146, 166);
+border-radius: 5px;
+border:2px solid rgb(26, 146, 166);
+}</string>
+    </property>
+    <property name="text">
+     <string>替换算法</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FIFO">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>450</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(79, 91, 98);
+color: rgb(29, 233, 182);
+border-radius: 20px;
+border: 2px solid rgb(29, 233, 182);
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: rgb(49, 54, 59);
+color: rgb(29, 233, 182);
+}
+QPushButton:disabled{
+background-color: rgb(79, 91, 98);
+color: rgb(29, 233, 182);
+border-radius: 20px;
+border: 2px solid rgb(29, 233, 182);
+}</string>
+    </property>
+    <property name="text">
+     <string>FIFO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="LRU">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>540</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(79, 91, 98);
+color: rgb(29, 233, 182);
+border-radius: 20px;
+border: 2px solid rgb(29, 233, 182);
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: rgb(49, 54, 59);
+color: rgb(29, 233, 182);
+}
+QPushButton:disabled{
+background-color: rgb(79, 91, 98);
+color: rgb(29, 233, 182);
+border-radius: 20px;
+border: 2px solid rgb(29, 233, 182);
+}</string>
+    </property>
+    <property name="text">
+     <string>LRU</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="OPT">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>540</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(79, 91, 98);
+color: rgb(29, 233, 182);
+border-radius: 20px;
+border: 2px solid rgb(29, 233, 182);
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: rgb(49, 54, 59);
+color: rgb(29, 233, 182);
+}
+QPushButton:disabled{
+background-color: rgb(79, 91, 98);
+color: rgb(29, 233, 182);
+border-radius: 20px;
+border: 2px solid rgb(29, 233, 182);
+}</string>
+    </property>
+    <property name="text">
+     <string>OPT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="RunButton">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>630</y>
+      <width>171</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(225, 172, 14);
+color: rgb(35, 38, 41);
+border-radius: 20px;
+}
+QPushButton:hover{
+background-color: yellow;
+}
+QPushButton:pressed{
+background-color: rgb(49, 54, 59);
+color: rgb(29, 233, 182);
+}
+QPushButton:disabled{
+background-color: rgb(200, 200, 200);
+color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>运行</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ResetButton">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>630</y>
+      <width>171</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(204, 52, 67);
+color: rgb(35, 38, 41);
+border-radius: 20px;
+}
+QPushButton:hover{
+background-color: red;
+}
+QPushButton:pressed{
+background-color: rgb(49, 54, 59);
+color: rgb(29, 233, 182);
+}
+QPushButton:disabled{
+background-color: rgb(200, 200, 200);
+color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>复位</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MissCountLabel">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>200</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: rgb(35, 38, 41);
+color: rgb(204, 52, 67);
+border-radius: 5px;
+border:2px solid rgb(204, 52, 67);
+}</string>
+    </property>
+    <property name="text">
+     <string>缺页数</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MissRateLabel">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>280</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: rgb(35, 38, 41);
+color: rgb(204, 52, 67);
+border-radius: 5px;
+border:2px solid rgb(204, 52, 67);
+}</string>
+    </property>
+    <property name="text">
+     <string>缺页率</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MissCountDataLabel">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>200</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: rgb(35, 38, 41);
+color: rgb(204, 52, 67);
+border-radius: 5px;
+border:2px solid rgb(204, 52, 67);
+}</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MissRateDataLabel">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>280</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: rgb(35, 38, 41);
+color: rgb(204, 52, 67);
+border-radius: 5px;
+border:2px solid rgb(204, 52, 67);
+}</string>
+    </property>
+    <property name="text">
+     <string>0.00%</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="AlgorithmDataLabel">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>60</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: rgb(35, 38, 41);
+color: rgb(26, 146, 166);
+border-radius: 5px;
+border:2px solid rgb(26, 146, 166);
+}</string>
+    </property>
+    <property name="text">
+     <string>FIFO</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="MemoryLabel">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>50</y>
+      <width>61</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: rgb(35, 38, 41);
+color: rgb(225, 172, 14);
+border-radius: 5px;
+border:2px solid rgb(225, 172, 14);
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;内&lt;/p&gt;&lt;p&gt;存&lt;/p&gt;&lt;p&gt;情&lt;/p&gt;&lt;p&gt;况&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="RecordLabel">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>330</y>
+      <width>61</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: rgb(35, 38, 41);
+color: rgb(29, 233, 182);
+border-radius: 5px;
+border:2px solid rgb(29, 233, 182);
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;访&lt;/p&gt;&lt;p&gt;问&lt;/p&gt;&lt;p&gt;指&lt;/p&gt;&lt;p&gt;令&lt;/p&gt;&lt;p&gt;记&lt;/p&gt;&lt;p&gt;录&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="InfoBackground">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>20</y>
+      <width>611</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: rgb(35, 38, 41);
+border-radius: 5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="InfoLabel">
+    <property name="geometry">
+     <rect>
+      <x>1240</x>
+      <y>20</y>
+      <width>61</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: rgb(35, 38, 41);
+color: rgb(79, 91, 98);
+border-radius: 5px;
+border:2px solid rgb(79, 91, 98);
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;信&lt;/p&gt;&lt;p&gt;息&lt;/p&gt;&lt;p&gt;页&lt;/p&gt;&lt;p&gt;面&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="CurrentCmdLabel">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>60</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: rgb(35, 38, 41);
+color: rgb(29, 233, 182);
+border-radius: 5px;
+border:2px solid rgb(29, 233, 182);
+}</string>
+    </property>
+    <property name="text">
+     <string>当前指令</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="CurrentCmdDataLabel">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>60</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: rgb(35, 38, 41);
+color: rgb(29, 233, 182);
+border-radius: 5px;
+border:2px solid rgb(29, 233, 182);
+}</string>
+    </property>
+    <property name="text">
+     <string>NULL</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LeftCmdLabel">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>170</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: rgb(35, 38, 41);
+color: rgb(225, 172, 14);
+border-radius: 5px;
+border:2px solid rgb(225, 172, 14);
+}</string>
+    </property>
+    <property name="text">
+     <string>剩余指令</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="StateLabel">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>280</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: rgb(35, 38, 41);
+color: rgb(79, 91, 98);
+border-radius: 5px;
+border:2px solid rgb(79, 91, 98);
+}</string>
+    </property>
+    <property name="text">
+     <string>状态</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LeftCmdDataLabel">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>170</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: rgb(35, 38, 41);
+color: rgb(225, 172, 14);
+border-radius: 5px;
+border:2px solid rgb(225, 172, 14);
+}</string>
+    </property>
+    <property name="text">
+     <string>NULL</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ConsoleBackground">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>430</y>
+      <width>611</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: rgb(35, 38, 41);
+border-radius: 5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ConsoleLabel">
+    <property name="geometry">
+     <rect>
+      <x>1240</x>
+      <y>430</y>
+      <width>61</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: rgb(35, 38, 41);
+color: rgb(119, 137, 147);
+border-radius: 5px;
+border:2px solid rgb(119, 137, 147);
+}</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;控&lt;/p&gt;&lt;p&gt;制&lt;/p&gt;&lt;p&gt;台&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="LFU">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>450</y>
+      <width>171</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(79, 91, 98);
+color: rgb(29, 233, 182);
+border-radius: 20px;
+border: 2px solid rgb(29, 233, 182);
+}
+QPushButton:hover{
+background-color: rgb(77, 199, 176);
+}
+QPushButton:pressed{
+background-color: rgb(49, 54, 59);
+color: rgb(29, 233, 182);
+}
+QPushButton:disabled{
+background-color: rgb(79, 91, 98);
+color: rgb(29, 233, 182);
+border-radius: 20px;
+border: 2px solid rgb(29, 233, 182);
+}</string>
+    </property>
+    <property name="text">
+     <string>LFU</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="StateDataLabel">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>280</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: rgb(35, 38, 41);
+color: rgb(79, 91, 98);
+border-radius: 5px;
+border:2px solid rgb(79, 91, 98);
+}</string>
+    </property>
+    <property name="text">
+     <string>空闲</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QSlider" name="IntervalEditSlider">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>770</y>
+      <width>221</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QSlider{
+background-color: green;
+border-radius:5;
+}
+QSlider::handle{
+background-color: rgb(49, 54, 59);
+border-radius:5;
+}
+QSlider::handle:hover{
+background-color: rgb(100, 100, 100);
+border-radius:5;
+}
+QSlider::handle:pressed{
+background-color: rgb(200, 200, 200);
+border-radius:5;
+}
+QSlider::sub-page{
+background-color: rgb(79, 91, 98);
+border-radius:5;
+}
+QSlider::add-page{
+background-color: rgb(26, 146, 166);
+border-radius:5;
+}</string>
+    </property>
+    <property name="minimum">
+     <number>5</number>
+    </property>
+    <property name="maximum">
+     <number>1000</number>
+    </property>
+    <property name="singleStep">
+     <number>5</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IntervalLabel">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>750</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: rgb(35, 38, 41);
+color: rgb(26, 146, 166);
+border-radius: 5px;
+border:2px solid rgb(26, 146, 166);
+}</string>
+    </property>
+    <property name="text">
+     <string>时间间隔</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="IntervalDataLabel">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>750</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+background-color: rgb(35, 38, 41);
+color: rgb(26, 146, 166);
+border-radius: 5px;
+border:2px solid rgb(26, 146, 166);
+}</string>
+    </property>
+    <property name="text">
+     <string>0.05ms</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>ConsoleBackground</zorder>
+   <zorder>InfoBackground</zorder>
+   <zorder>RecordTable</zorder>
+   <zorder>MemoryTable</zorder>
+   <zorder>AlgorithmLabel</zorder>
+   <zorder>FIFO</zorder>
+   <zorder>LRU</zorder>
+   <zorder>OPT</zorder>
+   <zorder>RunButton</zorder>
+   <zorder>ResetButton</zorder>
+   <zorder>MissCountLabel</zorder>
+   <zorder>MissRateLabel</zorder>
+   <zorder>MissCountDataLabel</zorder>
+   <zorder>MissRateDataLabel</zorder>
+   <zorder>AlgorithmDataLabel</zorder>
+   <zorder>MemoryLabel</zorder>
+   <zorder>RecordLabel</zorder>
+   <zorder>InfoLabel</zorder>
+   <zorder>CurrentCmdLabel</zorder>
+   <zorder>CurrentCmdDataLabel</zorder>
+   <zorder>LeftCmdLabel</zorder>
+   <zorder>StateLabel</zorder>
+   <zorder>LeftCmdDataLabel</zorder>
+   <zorder>ConsoleLabel</zorder>
+   <zorder>LFU</zorder>
+   <zorder>StateDataLabel</zorder>
+   <zorder>IntervalEditSlider</zorder>
+   <zorder>IntervalLabel</zorder>
+   <zorder>IntervalDataLabel</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1348</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
